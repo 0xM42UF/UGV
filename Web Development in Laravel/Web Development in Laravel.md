@@ -50,4 +50,4 @@ Day 24. Setup footer.
 
 Day 25. All Review.
 
-Day 26: Laravel 8 install and crud by livewire.
+Day 26: Laravel 9 install and crud by livewire.
