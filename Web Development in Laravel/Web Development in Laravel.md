@@ -55,3 +55,40 @@ Day 24. Setup footer.
 Day 25. All Review.
 
 Day 26: Laravel 9 install and crud by livewire.
+
+
+
+
+
+
+First : 
+
+             composer create-project laravel/laravel jeesan
+
+
+2nd : 
+    
+              php artisan make:controller CourseController
+
+
+3rd : 
+      
+               php artisan make:model courses  -m
+
+( https://image.intervention.io/v2/introduction/installation )
+
+
+4th : 
+
+                composer require intervention/image
+5th : 
+
+                php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
+                
+                
+>> config/app.php
+
+6th : 
+
+                 php artisan migrate
+
